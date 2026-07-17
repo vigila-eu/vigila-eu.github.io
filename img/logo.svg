@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', sans-serif">
+  <defs>
+    <filter id="gGl" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gAl" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="360" fill="#0d1117"/>
+  <g filter="url(#gAl)" stroke="#ffb454" stroke-width="34" stroke-linecap="round" fill="none">
+    <path d="M 96 106 L 172 240"/>
+    <path d="M 172 240 L 230 128"/>
+  </g>
+  <!-- first i dotless; the green LED is its dot -->
+  <text x="258" y="252" font-size="230" font-weight="640" letter-spacing="-5" fill="#e6edf3">ıgila</text>
+  <circle cx="292" cy="86" r="18" fill="#3fde8c" filter="url(#gGl)"/>
+</svg>
