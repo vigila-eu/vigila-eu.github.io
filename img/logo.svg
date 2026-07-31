@@ -7,7 +7,6 @@
       <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1400" height="360" fill="#0d1117"/>
   <g filter="url(#gAl)" stroke="#ffb454" stroke-width="34" stroke-linecap="round" fill="none">
     <path d="M 96 106 L 172 240"/>
     <path d="M 172 240 L 230 128"/>
